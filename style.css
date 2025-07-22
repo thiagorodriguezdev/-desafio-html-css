@@ -48,7 +48,7 @@ body {
   flex-direction: column;
   gap: 2.5rem;
   position: relative;
-  z-index: 1;
+  z-index: 9;
 }
 .left-form::before {
   content: "";
@@ -59,7 +59,7 @@ body {
   height: 100px;
   bottom: -50px;
   right: -55px;
-  z-index: 9;
+  z-index: 1;
 }
 
 .left-form .input[type="email"],
@@ -87,6 +87,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.088rem;
   margin-bottom: 2.5rem;
+  z-index: 2;
 }
 
 .left-link {
@@ -137,4 +138,50 @@ body {
   color: #fff;
   line-height: 150%;
   letter-spacing: 0.099rem;
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .left{
+    width: 85%;
+    padding: 18.9rem 0 9rem 0;
+  }
+
+  .right {
+    width: 100%;
+    padding: 7.2rem 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .left {
+    width: 90%;
+  }
+  .left-title {
+    font-size: 32px;
+    letter-spacing: 0.176rem;
+    margin-bottom: 15px;
+  }
+  .left-form::before {
+    display: none;
+  }
+  .right-img{
+    width: 90%;
+  }
+  .right-text{
+    width: 90%;
+  }
+
+  .right-text h2 {
+    font-size: 28px;
+  }
+
+  .right-text p {
+    font-size: 14px;
+    text-align: justify;
+  }
 }
