@@ -7,16 +7,6 @@ Este sistema oferece uma interface simples e funcional para que desenvolvedores 
 🔧 Para Quem É
 Ideal para desenvolvedores iniciantes e entusiastas da programação que desejam praticar, aprender ou publicar projetos pessoais. Também pode servir como base para startups que buscam criar rapidamente um MVP com autenticação básica de usuários.
 
-
-
-
-## Referência
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
 ## Apêndice
 
 Tecnologias Utilizadas:
